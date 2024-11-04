@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MvcProducto</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MvcProducto.styles.css" asp-append-version="true" />
+    
+   <style>
+
+        .navbar-nav .nav-link {
+            position: relative;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link::before {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #0011ff; 
+            transition: width 0.3s ease;
+        }
+
+    
+        .navbar-nav .nav-link:hover::before {
+            width: 100%;
+        }
+
+    
+        .navbar-nav .nav-link:hover {
+            color: #0011ff; 
+        }
+
+        .navbar-nav .nav-link.active {
+            color: #0011ff;
+            font-weight: bold;
+            background-color: rgba(0, 123, 255, 0.1); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logob.png" alt="Logo Barbería" class="img-fluid" style="width: 40px; height: 40px; margin-right: 10px;" />
+                    Barbería
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link @((ViewContext.RouteData.Values["action"]?.ToString() == "Index" && ViewContext.RouteData.Values["controller"]?.ToString() == "Home") ? "active" : "")" 
+                               asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @((ViewContext.RouteData.Values["action"]?.ToString() == "Privacy" && ViewContext.RouteData.Values["controller"]?.ToString() == "Home") ? "active" : "")" 
+                               asp-area="" asp-controller="Home" asp-action="Privacy">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @((ViewContext.RouteData.Values["controller"]?.ToString() == "Productos") ? "active" : "")" 
+                               asp-area="" asp-controller="Productos" asp-action="Index">Productos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Barbería - <a asp-area="" asp-controller="Home" asp-action="Privacy">Contactanos</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

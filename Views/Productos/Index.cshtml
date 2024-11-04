@@ -1,0 +1,90 @@
+@model IEnumerable<MvcProducto.Models.Producto>
+
+@{
+    ViewData["Title"] = "Tabla de productos";
+}
+
+<div class="banner">
+    <h1>Productos Disponibles （。＾▽＾）</h1>
+     
+</div>
+
+<h1>Tabla de productos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-outline-info">Agregar producto</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Archivo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeAlta)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) 
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Archivo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDeAlta)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary">
+                    <img src="~/images/edit.png" alt="Edit" style="width: 20px; height: 20px;" />
+                </a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info">
+                    <img src="~/images/details.png" alt="Details" style="width: 20px; height: 20px;" />
+                </a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">
+                    <img src="~/images/delete.png" alt="Delete" style="width: 20px; height: 20px;" />
+                </a>
+            </td>
+        </tr>
+    }
+    
+    </tbody>
+</table>
+
+<style>
+    .banner {
+        background-color: hsl(207, 51%, 65%);
+        color: #6b1f1f;
+        text-align: center;
+        padding: 30px 0;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        text-transform: uppercase;
+    }
+</style>

@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\MVC\\MvcProducto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MvcProducto.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MvcProducto.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\favicon.png.ico",
+      "PackagePath": "staticwebassets\\favicon.png.ico"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\barbershop.mp4.mp4",
+      "PackagePath": "staticwebassets\\images\\barbershop.mp4.mp4"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\carrusel1.png",
+      "PackagePath": "staticwebassets\\images\\carrusel1.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\carrusel2.png",
+      "PackagePath": "staticwebassets\\images\\carrusel2.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\carrusel3.png",
+      "PackagePath": "staticwebassets\\images\\carrusel3.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\cepillos.png",
+      "PackagePath": "staticwebassets\\images\\cepillos.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\cera.png",
+      "PackagePath": "staticwebassets\\images\\cera.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\cosmeticos.png",
+      "PackagePath": "staticwebassets\\images\\cosmeticos.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\crema.png",
+      "PackagePath": "staticwebassets\\images\\crema.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\delete.png",
+      "PackagePath": "staticwebassets\\images\\delete.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\details.png",
+      "PackagePath": "staticwebassets\\images\\details.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\edit.png",
+      "PackagePath": "staticwebassets\\images\\edit.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\ego.png",
+      "PackagePath": "staticwebassets\\images\\ego.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\f.png",
+      "PackagePath": "staticwebassets\\images\\f.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\guardar.png",
+      "PackagePath": "staticwebassets\\images\\guardar.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\i.png",
+      "PackagePath": "staticwebassets\\images\\i.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\kitbarba.png",
+      "PackagePath": "staticwebassets\\images\\kitbarba.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\logob.png",
+      "PackagePath": "staticwebassets\\images\\logob.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\navaja.png",
+      "PackagePath": "staticwebassets\\images\\navaja.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\rasu.png",
+      "PackagePath": "staticwebassets\\images\\rasu.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\sego.png",
+      "PackagePath": "staticwebassets\\images\\sego.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\t.png",
+      "PackagePath": "staticwebassets\\images\\t.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\volver.png",
+      "PackagePath": "staticwebassets\\images\\volver.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\w.png.jpg",
+      "PackagePath": "staticwebassets\\images\\w.png.jpg"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\images\\wa.png",
+      "PackagePath": "staticwebassets\\images\\wa.png"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\video\\barba.mp4",
+      "PackagePath": "staticwebassets\\video\\barba.mp4"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\video\\khai-lofi.mp4",
+      "PackagePath": "staticwebassets\\video\\khai-lofi.mp4"
+    },
+    {
+      "Id": "C:\\MVC\\MvcProducto\\wwwroot\\video\\promo.mp4",
+      "PackagePath": "staticwebassets\\video\\promo.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MvcProducto.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MvcProducto.props",
+      "PackagePath": "build\\MvcProducto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MvcProducto.props",
+      "PackagePath": "buildMultiTargeting\\MvcProducto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MvcProducto.props",
+      "PackagePath": "buildTransitive\\MvcProducto.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

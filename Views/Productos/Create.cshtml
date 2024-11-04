@@ -1,0 +1,57 @@
+@model MvcProducto.Models.Producto
+
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear</h1>
+
+<h4>Producto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Archivo" /> @Html.DisplayNameFor(model => model.Archivo)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaDeAlta" class="control-label"></label>
+                <input asp-for="FechaDeAlta" class="form-control" />
+                <span asp-validation-for="FechaDeAlta" class="text-danger"></span>
+            </div>
+            <br>
+             <div class="form-group">
+                <button type="submit" class="btn btn-outline-dark">
+                    <img src="~/images/guardar.png" alt="Guardar" style="width: 20px; height: 20px;" />
+                </button>
+                |
+                <a asp-action="Index" class="btn btn-outline-success">
+                    <img src="~/images/volver.png" alt="Regresar" style="width: 20px; height: 20px; border: none; cursor: pointer;" />
+                </a>
+            </div>
+        </form>
+    </div>
+</div> 
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

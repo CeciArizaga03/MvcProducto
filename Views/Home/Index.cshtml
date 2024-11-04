@@ -1,0 +1,110 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenidos （。＾▽＾）</h1>
+</div>
+
+<!-- Carrusel de Bootstrap -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="~/images/carrusel1.png" class="d-block w-100" alt="Imagen 1">
+    </div>
+    <div class="carousel-item">
+      <img src="~/images/carrusel2.png" class="d-block w-100" alt="Imagen 2">
+    </div>
+    <div class="carousel-item">
+      <img src="~/images/carrusel3.png" class="d-block w-100" alt="Imagen 3">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previo</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </a>
+</div>
+
+<div class="container my-5">
+    <h2>Productos principales</h2>
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="~/images/rasu.png" class="img-fluid" alt="Producto 1">
+            <p style="text-align: justify;">Herramienta esencial para lograr un afeitado preciso y al ras. 
+            Disponible en versiones eléctricas y manuales, diseñada para ofrecer un afeitado cómodo y
+            sin irritación.</p>
+        </div>
+        <div class="col-lg-4">
+            <img src="~/images/sego.png" class="img-fluid" alt="Producto 2">
+            <p style="text-align: justify;">Shampoo masculino que limpia profundamente, proporcionando un 
+            aroma fresco y revitalizante. Ideal para el uso diario,
+            manteniendo el cabello saludable y con un aspecto fuerte.</p>
+        </div>
+        <div class="col-lg-4">
+            <img src="~/images/cera.png" class="img-fluid" alt="Producto 3">
+            <p style="text-align: justify;">Producto moldeador que ofrece una fijación firme sin dejar residuos grasos. Ideal 
+            para crear estilos definidos y duraderos con un acabado natural o mate.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="~/images/navaja.png" class="img-fluid" alt="Producto 1">
+            <p style="text-align: justify;">Herramienta clásica para afeitado de precisión. Perfecta para quienes buscan un afeitado
+            tradicional con una navaja de acero afilado que sigue el contorno del rostro.</p>
+        </div>
+        <div class="col-lg-4">
+            <img src="~/images/crema.png" class="img-fluid" alt="Producto 2">
+            <p style="text-align: justify;">Producto en aerosol que genera una espuma rica y cremosa. Proporciona lubricación y protección durante el 
+            afeitado, suavizando el vello y minimizando la irritación.</p>
+        </div>
+        <div class="col-lg-4">
+            <img src="~/images/kitbarba.png" class="img-fluid" alt="Producto 3">
+            <p style="text-align: justify;">Herramienta diseñada para desenredar y moldear la barba. Ideal para distribuir aceites 
+            o bálsamos de manera uniforme, manteniendo una barba bien cuidada y ordenada.</p>
+        </div>
+    </div>
+</div>
+
+
+<!--VIDEOOOO-->
+<div class="container my-5 text-center">
+    <h2>Video de demostración</h2>
+    <div class="d-flex justify-content-center">
+       <video src="~/video/promo.MP4" width="100%" height="auto" loop controls></video>
+    </div>
+</div>
+
+<div class="container my-5 text-center">
+    <h2>Síguenos en Facebook</h2>
+    <br>
+    <div class="d-flex justify-content-center">
+        <div class="fb-page" 
+             data-href="https://www.facebook.com/SrWoodsMexicali" 
+             data-width="1600" 
+             data-hide-cover="false" 
+             data-show-facepile="true">
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+   
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0"></script>
+}
