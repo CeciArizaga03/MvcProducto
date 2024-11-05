@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MVC\\MvcProducto\\MvcProducto.csproj": {}
+    "C:\\Users\\52686\\OneDrive\\Documents\\GitHub\\MvcProducto\\MvcProducto.csproj": {}
   },
   "projects": {
-    "C:\\MVC\\MvcProducto\\MvcProducto.csproj": {
+    "C:\\Users\\52686\\OneDrive\\Documents\\GitHub\\MvcProducto\\MvcProducto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MVC\\MvcProducto\\MvcProducto.csproj",
+        "projectUniqueName": "C:\\Users\\52686\\OneDrive\\Documents\\GitHub\\MvcProducto\\MvcProducto.csproj",
         "projectName": "MvcProducto",
-        "projectPath": "C:\\MVC\\MvcProducto\\MvcProducto.csproj",
-        "packagesPath": "C:\\Users\\ariza\\.nuget\\packages\\",
-        "outputPath": "C:\\MVC\\MvcProducto\\obj\\",
+        "projectPath": "C:\\Users\\52686\\OneDrive\\Documents\\GitHub\\MvcProducto\\MvcProducto.csproj",
+        "packagesPath": "C:\\Users\\52686\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\52686\\OneDrive\\Documents\\GitHub\\MvcProducto\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ariza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\52686\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -90,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
